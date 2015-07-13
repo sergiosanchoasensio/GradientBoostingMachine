@@ -1,0 +1,10 @@
+petallength <= 2.45 : 0.00 (w:50.00 / e:0.00)
+petallength > 2.45
+|  petalwidth <= 1.75
+|  |  petallength <= 4.95
+|  |  |  petalwidth <= 1.65 : 1.00 (w:47.00 / e:0.00)
+|  |  |  petalwidth > 1.65 : 2.00 (w:1.00 / e:0.00)
+|  |  petallength > 4.95 : 1.67 (w:6.00 / e:0.22)
+|  petalwidth > 1.75
+|  |  petallength <= 4.85 : 1.67 (w:3.00 / e:0.22)
+|  |  petallength > 4.85 : 2.00 (w:43.00 / e:0.00)

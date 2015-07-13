@@ -1,0 +1,239 @@
+\hypertarget{class_data_set}{}\section{Data\+Set Class Reference}
+\label{class_data_set}\index{Data\+Set@{Data\+Set}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_data_set_af53be1e951d7c1b632e8349ad76dcb61}{Data\+Set} (const std\+::string \&file\+Name)
+\item 
+\hyperlink{class_data_set_a0e2a07da891a7718504a527941f65d6b}{Data\+Set} (const \hyperlink{class_data_set}{Data\+Set} $\ast$dataset)
+\item 
+\hyperlink{class_data_set_a0e8cc0181dc015bcc19f27b71546b000}{Data\+Set} (unsigned int feature, const std\+::string \&symbol, float threshold, const \hyperlink{class_data_set}{Data\+Set} $\ast$dataset)
+\item 
+\hyperlink{class_data_set_a2cdb84d32331956b413ca36933e516bd}{$\sim$\+Data\+Set} ()
+\item 
+void \hyperlink{class_data_set_a0612aa4b99b6fa3dcfcd89eb34c13074}{sort} (unsigned int feature)
+\item 
+void \hyperlink{class_data_set_a09a5b0317e5afc196c9ba51d16f3752c}{print} () const 
+\item 
+\hypertarget{class_data_set_a85000fd7a1c42ae40c4144fab690dd3d}{}unsigned int {\bfseries get\+Number\+Of\+Instances} () const \label{class_data_set_a85000fd7a1c42ae40c4144fab690dd3d}
+
+\item 
+\hypertarget{class_data_set_aa1bc762bba62e8809d1ce606d06bc4aa}{}unsigned int {\bfseries get\+Number\+Of\+Classes} () const \label{class_data_set_aa1bc762bba62e8809d1ce606d06bc4aa}
+
+\item 
+\hypertarget{class_data_set_aa374c29cf0015f172e1c87026885828f}{}unsigned int {\bfseries get\+Number\+Of\+Features} () const \label{class_data_set_aa374c29cf0015f172e1c87026885828f}
+
+\item 
+\hypertarget{class_data_set_af995f0a16c41de155d836bec26651f6f}{}unsigned int {\bfseries get\+Class\+Position} () const \label{class_data_set_af995f0a16c41de155d836bec26651f6f}
+
+\item 
+\hypertarget{class_data_set_a4023d83ecf962c6363ee60f78c979b33}{}float {\bfseries get\+Value\+At} (unsigned int index, unsigned int feature) const \label{class_data_set_a4023d83ecf962c6363ee60f78c979b33}
+
+\item 
+float \hyperlink{class_data_set_ad41c1634b40658621a23dc5687a97b58}{get\+Example\+At} (unsigned int index, float $\ast$example) const 
+\item 
+float \hyperlink{class_data_set_aa9dd3e6249a08b7fb7ab3f03c46faa61}{get\+Weight} () const 
+\item 
+float \hyperlink{class_data_set_a0f9b7369e71df876894fdb7c7048cd7b}{get\+Residual\+At} (unsigned int index, unsigned int label) const 
+\item 
+void \hyperlink{class_data_set_acb289c78b3e5c104efb50027fe995263}{set\+Residual\+At} (unsigned int index, unsigned int label, float value)
+\item 
+float \hyperlink{class_data_set_a34bd60f57d3aae4607850c9f560c690f}{get\+Output\+Variable\+At} (unsigned int index) const 
+\item 
+int \hyperlink{class_data_set_a28052cf7bf90dd5ef101d05fb240ad4f}{get\+Number\+Of\+Instances\+With\+Threshold\+At} (unsigned int feature, const std\+::string \&symbol, float threshold) const 
+\item 
+\hypertarget{class_data_set_a1dfdb86ba675eeb90561d1551702911b}{}std\+::string {\bfseries get\+Feature\+Name} (unsigned int index) const \label{class_data_set_a1dfdb86ba675eeb90561d1551702911b}
+
+\item 
+void \hyperlink{class_data_set_af24d90327ac079f502a9827fa027dac0}{compute\+Residual} (unsigned int example\+Index, unsigned int class\+Index, float value)
+\item 
+\hypertarget{class_data_set_a89ce015f32f4705fd3f75a4b3759040a}{}int {\bfseries get\+Number\+Of\+Instances\+Of\+Class} (int class\+Label)\label{class_data_set_a89ce015f32f4705fd3f75a4b3759040a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_data_set_af53be1e951d7c1b632e8349ad76dcb61}{}\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\subsubsection[{Data\+Set}]{\setlength{\rightskip}{0pt plus 5cm}Data\+Set\+::\+Data\+Set (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{file\+Name}
+\end{DoxyParamCaption}
+)}\label{class_data_set_af53be1e951d7c1b632e8349ad76dcb61}
+The data set constructor. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & is the name of the file to open. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_a0e2a07da891a7718504a527941f65d6b}{}\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\subsubsection[{Data\+Set}]{\setlength{\rightskip}{0pt plus 5cm}Data\+Set\+::\+Data\+Set (
+\begin{DoxyParamCaption}
+\item[{const {\bf Data\+Set} $\ast$}]{dataset}
+\end{DoxyParamCaption}
+)}\label{class_data_set_a0e2a07da891a7718504a527941f65d6b}
+Copy constructor. 
+\begin{DoxyParams}{Parameters}
+{\em dataset} & is the data set to clone. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_a0e8cc0181dc015bcc19f27b71546b000}{}\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\index{Data\+Set@{Data\+Set}!Data\+Set@{Data\+Set}}
+\subsubsection[{Data\+Set}]{\setlength{\rightskip}{0pt plus 5cm}Data\+Set\+::\+Data\+Set (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{feature, }
+\item[{const std\+::string \&}]{symbol, }
+\item[{float}]{threshold, }
+\item[{const {\bf Data\+Set} $\ast$}]{dataset}
+\end{DoxyParamCaption}
+)}\label{class_data_set_a0e8cc0181dc015bcc19f27b71546b000}
+It copies the desired number of instances with threshold. 
+\begin{DoxyParams}{Parameters}
+{\em feature} & is the desired feature to copy data from. \\
+\hline
+{\em symbol} & is the desired symbol \mbox{[}$<$= $\vert$ $>$ \mbox{]}. \\
+\hline
+{\em threshold} & is the threshold value. \\
+\hline
+{\em dataset} & is the data set to clone. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_a2cdb84d32331956b413ca36933e516bd}{}\index{Data\+Set@{Data\+Set}!````~Data\+Set@{$\sim$\+Data\+Set}}
+\index{````~Data\+Set@{$\sim$\+Data\+Set}!Data\+Set@{Data\+Set}}
+\subsubsection[{$\sim$\+Data\+Set}]{\setlength{\rightskip}{0pt plus 5cm}Data\+Set\+::$\sim$\+Data\+Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_data_set_a2cdb84d32331956b413ca36933e516bd}
+The data set destructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_data_set_af24d90327ac079f502a9827fa027dac0}{}\index{Data\+Set@{Data\+Set}!compute\+Residual@{compute\+Residual}}
+\index{compute\+Residual@{compute\+Residual}!Data\+Set@{Data\+Set}}
+\subsubsection[{compute\+Residual}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Set\+::compute\+Residual (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{example\+Index, }
+\item[{unsigned int}]{class\+Index, }
+\item[{float}]{value}
+\end{DoxyParamCaption}
+)}\label{class_data_set_af24d90327ac079f502a9827fa027dac0}
+It computes the residual for the given class. 
+\begin{DoxyParams}{Parameters}
+{\em example\+Index} & is the index of the desired example. \\
+\hline
+{\em class\+Index} & is the index of the desired class. \\
+\hline
+{\em value} & is the value to substract to the residual. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_ad41c1634b40658621a23dc5687a97b58}{}\index{Data\+Set@{Data\+Set}!get\+Example\+At@{get\+Example\+At}}
+\index{get\+Example\+At@{get\+Example\+At}!Data\+Set@{Data\+Set}}
+\subsubsection[{get\+Example\+At}]{\setlength{\rightskip}{0pt plus 5cm}float Data\+Set\+::get\+Example\+At (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{float $\ast$}]{example}
+\end{DoxyParamCaption}
+) const}\label{class_data_set_ad41c1634b40658621a23dc5687a97b58}
+It gets the example at the given position and example. \hypertarget{class_data_set_a28052cf7bf90dd5ef101d05fb240ad4f}{}\index{Data\+Set@{Data\+Set}!get\+Number\+Of\+Instances\+With\+Threshold\+At@{get\+Number\+Of\+Instances\+With\+Threshold\+At}}
+\index{get\+Number\+Of\+Instances\+With\+Threshold\+At@{get\+Number\+Of\+Instances\+With\+Threshold\+At}!Data\+Set@{Data\+Set}}
+\subsubsection[{get\+Number\+Of\+Instances\+With\+Threshold\+At}]{\setlength{\rightskip}{0pt plus 5cm}int Data\+Set\+::get\+Number\+Of\+Instances\+With\+Threshold\+At (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{feature, }
+\item[{const std\+::string \&}]{symbol, }
+\item[{float}]{threshold}
+\end{DoxyParamCaption}
+) const}\label{class_data_set_a28052cf7bf90dd5ef101d05fb240ad4f}
+It counts the number of instances which follow a given threshold. 
+\begin{DoxyParams}{Parameters}
+{\em feature} & is the feature index. \\
+\hline
+{\em symbol} & is the symbol \mbox{[}$<$= $\vert$ $>$ \mbox{]}. \\
+\hline
+{\em threshold} & is the threshold value. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_a34bd60f57d3aae4607850c9f560c690f}{}\index{Data\+Set@{Data\+Set}!get\+Output\+Variable\+At@{get\+Output\+Variable\+At}}
+\index{get\+Output\+Variable\+At@{get\+Output\+Variable\+At}!Data\+Set@{Data\+Set}}
+\subsubsection[{get\+Output\+Variable\+At}]{\setlength{\rightskip}{0pt plus 5cm}float Data\+Set\+::get\+Output\+Variable\+At (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\label{class_data_set_a34bd60f57d3aae4607850c9f560c690f}
+It gets the output variable (class) at the given position. 
+\begin{DoxyParams}{Parameters}
+{\em index} & is the index of the data matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the desired output variable.
+\end{DoxyReturn}
+It gets the output variable. \hypertarget{class_data_set_a0f9b7369e71df876894fdb7c7048cd7b}{}\index{Data\+Set@{Data\+Set}!get\+Residual\+At@{get\+Residual\+At}}
+\index{get\+Residual\+At@{get\+Residual\+At}!Data\+Set@{Data\+Set}}
+\subsubsection[{get\+Residual\+At}]{\setlength{\rightskip}{0pt plus 5cm}float Data\+Set\+::get\+Residual\+At (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{unsigned int}]{label}
+\end{DoxyParamCaption}
+) const}\label{class_data_set_a0f9b7369e71df876894fdb7c7048cd7b}
+It gets the residual at the given position and label. 
+\begin{DoxyParams}{Parameters}
+{\em index} & is the index of the data matrix. \\
+\hline
+{\em label} & is the index of the desired label. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the desired residual. 
+\end{DoxyReturn}
+\hypertarget{class_data_set_aa9dd3e6249a08b7fb7ab3f03c46faa61}{}\index{Data\+Set@{Data\+Set}!get\+Weight@{get\+Weight}}
+\index{get\+Weight@{get\+Weight}!Data\+Set@{Data\+Set}}
+\subsubsection[{get\+Weight}]{\setlength{\rightskip}{0pt plus 5cm}float Data\+Set\+::get\+Weight (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\label{class_data_set_aa9dd3e6249a08b7fb7ab3f03c46faa61}
+Weight per example.
+
+It gets the weight of each example. \hypertarget{class_data_set_a09a5b0317e5afc196c9ba51d16f3752c}{}\index{Data\+Set@{Data\+Set}!print@{print}}
+\index{print@{print}!Data\+Set@{Data\+Set}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Set\+::print (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\label{class_data_set_a09a5b0317e5afc196c9ba51d16f3752c}
+It prints the data set. \hypertarget{class_data_set_acb289c78b3e5c104efb50027fe995263}{}\index{Data\+Set@{Data\+Set}!set\+Residual\+At@{set\+Residual\+At}}
+\index{set\+Residual\+At@{set\+Residual\+At}!Data\+Set@{Data\+Set}}
+\subsubsection[{set\+Residual\+At}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Set\+::set\+Residual\+At (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index, }
+\item[{unsigned int}]{label, }
+\item[{float}]{value}
+\end{DoxyParamCaption}
+)}\label{class_data_set_acb289c78b3e5c104efb50027fe995263}
+It sets the residual at the given position and label. 
+\begin{DoxyParams}{Parameters}
+{\em index} & is the index of the data matrix. \\
+\hline
+{\em label} & is the index of the desired label. \\
+\hline
+{\em value} & is the new value for the residual. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_data_set_a0612aa4b99b6fa3dcfcd89eb34c13074}{}\index{Data\+Set@{Data\+Set}!sort@{sort}}
+\index{sort@{sort}!Data\+Set@{Data\+Set}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Set\+::sort (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{feature}
+\end{DoxyParamCaption}
+)}\label{class_data_set_a0612aa4b99b6fa3dcfcd89eb34c13074}
+It sorts the data according to the given feature index by using iterative quicksort algorithm. 
+\begin{DoxyParams}{Parameters}
+{\em feature} & is the feature to sort. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Set.\+h\item 
+Data\+Set.\+cpp\end{DoxyCompactItemize}

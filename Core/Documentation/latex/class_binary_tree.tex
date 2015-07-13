@@ -1,0 +1,192 @@
+\hypertarget{class_binary_tree}{}\section{Binary\+Tree Class Reference}
+\label{class_binary_tree}\index{Binary\+Tree@{Binary\+Tree}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_binary_tree_adf45bce605436b26c353b87e27bffe50}{Binary\+Tree} ()
+\item 
+void \hyperlink{class_binary_tree_a6473cf23a1a9193bd73f4f2eacae33bb}{generate\+Tree} (unsigned int class\+Label, \hyperlink{class_data_set}{Data\+Set} $\ast$data)
+\item 
+\hyperlink{class_binary_tree_a48c23a22a8400765d099e0e6fcebc236}{$\sim$\+Binary\+Tree} ()
+\item 
+float \hyperlink{class_binary_tree_a03a629b383d095cb981ed30eaaa0268f}{compute\+Variance} (float value, float sum\+S\+Q\+Value, float weight)
+\item 
+int \hyperlink{class_binary_tree_a0e9333ef74d76d2f125d8f76e77c033d}{get\+Number\+Of\+Regions} ()
+\item 
+float \hyperlink{class_binary_tree_a389a58e86e9e8a61e00210e7457287e1}{make\+A\+Prediction} (const float $\ast$example) const 
+\item 
+void \hyperlink{class_binary_tree_a3f8ff4e8cf4a8daf36168e155ddf1421}{save\+To\+Binary\+File} () const 
+\item 
+void \hyperlink{class_binary_tree_a5224afb82b0e908f0ea7acf3b02f0bd4}{read\+From\+Binary\+File} ()
+\item 
+void \hyperlink{class_binary_tree_af1a88ca94296d5df3787612ab5dcb705}{read\+From\+Binary\+File} (std\+::ifstream \&m\+File)
+\item 
+void \hyperlink{class_binary_tree_a6744400cd870d287b2e6bf6e54b0f987}{save\+To\+Binary\+File} (std\+::ofstream \&o\+File) const 
+\item 
+void \hyperlink{class_binary_tree_ad8f6b1b5cb0b9098199f583868afe297}{print} (const \hyperlink{class_data_set}{Data\+Set} $\ast$data)
+\item 
+void \hyperlink{class_binary_tree_a1cd6d1dba0424abae2cf13c3facf59c9}{print\+To\+File} (const \hyperlink{class_data_set}{Data\+Set} $\ast$data)
+\item 
+float \hyperlink{class_binary_tree_a5cb73b30134468ab29509dbf0f1786d2}{get\+Gamma} (const float $\ast$example) const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_binary_tree_adf45bce605436b26c353b87e27bffe50}{}\index{Binary\+Tree@{Binary\+Tree}!Binary\+Tree@{Binary\+Tree}}
+\index{Binary\+Tree@{Binary\+Tree}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{Binary\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}Binary\+Tree\+::\+Binary\+Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_adf45bce605436b26c353b87e27bffe50}
+The object constructor. \hypertarget{class_binary_tree_a48c23a22a8400765d099e0e6fcebc236}{}\index{Binary\+Tree@{Binary\+Tree}!````~Binary\+Tree@{$\sim$\+Binary\+Tree}}
+\index{````~Binary\+Tree@{$\sim$\+Binary\+Tree}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{$\sim$\+Binary\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}Binary\+Tree\+::$\sim$\+Binary\+Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a48c23a22a8400765d099e0e6fcebc236}
+The object destructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_binary_tree_a03a629b383d095cb981ed30eaaa0268f}{}\index{Binary\+Tree@{Binary\+Tree}!compute\+Variance@{compute\+Variance}}
+\index{compute\+Variance@{compute\+Variance}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{compute\+Variance}]{\setlength{\rightskip}{0pt plus 5cm}float Binary\+Tree\+::compute\+Variance (
+\begin{DoxyParamCaption}
+\item[{float}]{value, }
+\item[{float}]{sum\+S\+Q\+Value, }
+\item[{float}]{weight}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a03a629b383d095cb981ed30eaaa0268f}
+It computes the variance of a single instance. 
+\begin{DoxyParams}{Parameters}
+{\em value} & is the value for computing a sample mean. \\
+\hline
+{\em sum\+S\+Q\+Value} & is the sum of squared values. \\
+\hline
+{\em weight} & is the normalization term. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the sample variance. 
+\end{DoxyReturn}
+\hypertarget{class_binary_tree_a6473cf23a1a9193bd73f4f2eacae33bb}{}\index{Binary\+Tree@{Binary\+Tree}!generate\+Tree@{generate\+Tree}}
+\index{generate\+Tree@{generate\+Tree}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{generate\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::generate\+Tree (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{class\+Label, }
+\item[{{\bf Data\+Set} $\ast$}]{data}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a6473cf23a1a9193bd73f4f2eacae33bb}
+It builds the tree. 
+\begin{DoxyParams}{Parameters}
+{\em class\+Label} & is the class for the tree. \\
+\hline
+{\em data} & is the data to fit with a tree. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_tree_a5cb73b30134468ab29509dbf0f1786d2}{}\index{Binary\+Tree@{Binary\+Tree}!get\+Gamma@{get\+Gamma}}
+\index{get\+Gamma@{get\+Gamma}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{get\+Gamma}]{\setlength{\rightskip}{0pt plus 5cm}float Binary\+Tree\+::get\+Gamma (
+\begin{DoxyParamCaption}
+\item[{const float $\ast$}]{example}
+\end{DoxyParamCaption}
+) const}\label{class_binary_tree_a5cb73b30134468ab29509dbf0f1786d2}
+It gets the gamma value for the given example. 
+\begin{DoxyParams}{Parameters}
+{\em example} & is the given example. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_tree_a0e9333ef74d76d2f125d8f76e77c033d}{}\index{Binary\+Tree@{Binary\+Tree}!get\+Number\+Of\+Regions@{get\+Number\+Of\+Regions}}
+\index{get\+Number\+Of\+Regions@{get\+Number\+Of\+Regions}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{get\+Number\+Of\+Regions}]{\setlength{\rightskip}{0pt plus 5cm}int Binary\+Tree\+::get\+Number\+Of\+Regions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a0e9333ef74d76d2f125d8f76e77c033d}
+It returns the number of regions Ri in the tree. \begin{DoxyReturn}{Returns}
+the number of regions Ri of the tree. 
+\end{DoxyReturn}
+\hypertarget{class_binary_tree_a389a58e86e9e8a61e00210e7457287e1}{}\index{Binary\+Tree@{Binary\+Tree}!make\+A\+Prediction@{make\+A\+Prediction}}
+\index{make\+A\+Prediction@{make\+A\+Prediction}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{make\+A\+Prediction}]{\setlength{\rightskip}{0pt plus 5cm}float Binary\+Tree\+::make\+A\+Prediction (
+\begin{DoxyParamCaption}
+\item[{const float $\ast$}]{example}
+\end{DoxyParamCaption}
+) const}\label{class_binary_tree_a389a58e86e9e8a61e00210e7457287e1}
+It makes a prediction of the expected value. 
+\begin{DoxyParams}{Parameters}
+{\em example} & is the given example to predict. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the expected value. 
+\end{DoxyReturn}
+\hypertarget{class_binary_tree_ad8f6b1b5cb0b9098199f583868afe297}{}\index{Binary\+Tree@{Binary\+Tree}!print@{print}}
+\index{print@{print}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::print (
+\begin{DoxyParamCaption}
+\item[{const {\bf Data\+Set} $\ast$}]{data}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_ad8f6b1b5cb0b9098199f583868afe297}
+It prints by command line the model. 
+\begin{DoxyParams}{Parameters}
+{\em data} & is the data set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_tree_a1cd6d1dba0424abae2cf13c3facf59c9}{}\index{Binary\+Tree@{Binary\+Tree}!print\+To\+File@{print\+To\+File}}
+\index{print\+To\+File@{print\+To\+File}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{print\+To\+File}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::print\+To\+File (
+\begin{DoxyParamCaption}
+\item[{const {\bf Data\+Set} $\ast$}]{data}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a1cd6d1dba0424abae2cf13c3facf59c9}
+It copies to a string the model. 
+\begin{DoxyParams}{Parameters}
+{\em data} & is the data set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_tree_a5224afb82b0e908f0ea7acf3b02f0bd4}{}\index{Binary\+Tree@{Binary\+Tree}!read\+From\+Binary\+File@{read\+From\+Binary\+File}}
+\index{read\+From\+Binary\+File@{read\+From\+Binary\+File}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{read\+From\+Binary\+File}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::read\+From\+Binary\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_a5224afb82b0e908f0ea7acf3b02f0bd4}
+It reads the model to a file. \hypertarget{class_binary_tree_af1a88ca94296d5df3787612ab5dcb705}{}\index{Binary\+Tree@{Binary\+Tree}!read\+From\+Binary\+File@{read\+From\+Binary\+File}}
+\index{read\+From\+Binary\+File@{read\+From\+Binary\+File}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{read\+From\+Binary\+File}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::read\+From\+Binary\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::ifstream \&}]{m\+File}
+\end{DoxyParamCaption}
+)}\label{class_binary_tree_af1a88ca94296d5df3787612ab5dcb705}
+It reads the file. 
+\begin{DoxyParams}{Parameters}
+{\em m\+File} & is the model file to read. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_binary_tree_a3f8ff4e8cf4a8daf36168e155ddf1421}{}\index{Binary\+Tree@{Binary\+Tree}!save\+To\+Binary\+File@{save\+To\+Binary\+File}}
+\index{save\+To\+Binary\+File@{save\+To\+Binary\+File}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{save\+To\+Binary\+File}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::save\+To\+Binary\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\label{class_binary_tree_a3f8ff4e8cf4a8daf36168e155ddf1421}
+It writes the model to a file. \hypertarget{class_binary_tree_a6744400cd870d287b2e6bf6e54b0f987}{}\index{Binary\+Tree@{Binary\+Tree}!save\+To\+Binary\+File@{save\+To\+Binary\+File}}
+\index{save\+To\+Binary\+File@{save\+To\+Binary\+File}!Binary\+Tree@{Binary\+Tree}}
+\subsubsection[{save\+To\+Binary\+File}]{\setlength{\rightskip}{0pt plus 5cm}void Binary\+Tree\+::save\+To\+Binary\+File (
+\begin{DoxyParamCaption}
+\item[{std\+::ofstream \&}]{o\+File}
+\end{DoxyParamCaption}
+) const}\label{class_binary_tree_a6744400cd870d287b2e6bf6e54b0f987}
+It writes the model to a file. 
+\begin{DoxyParams}{Parameters}
+{\em o\+File} & is the output file. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Binary\+Tree.\+h\item 
+Binary\+Tree.\+cpp\end{DoxyCompactItemize}

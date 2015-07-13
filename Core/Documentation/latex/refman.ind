@@ -1,0 +1,198 @@
+\begin{theindex}
+
+  \item {$\sim$\+Binary\+Tree}
+    \subitem {Binary\+Tree}, \hyperpage{3}
+  \item {$\sim$\+Data\+Set}
+    \subitem {Data\+Set}, \hyperpage{8}
+  \item {$\sim$\+Gradient\+Boosting}
+    \subitem {Gradient\+Boosting}, \hyperpage{11}
+  \item {$\sim$\+Nominal\+Feature}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+
+  \indexspace
+
+  \item {add}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+  \item {apply\+Weight}
+    \subitem {Config}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Binary\+Tree}, \hyperpage{3}
+    \subitem {$\sim$\+Binary\+Tree}, \hyperpage{3}
+    \subitem {Binary\+Tree}, \hyperpage{3}
+    \subitem {compute\+Variance}, \hyperpage{3}
+    \subitem {generate\+Tree}, \hyperpage{4}
+    \subitem {get\+Gamma}, \hyperpage{4}
+    \subitem {get\+Number\+Of\+Regions}, \hyperpage{4}
+    \subitem {make\+A\+Prediction}, \hyperpage{4}
+    \subitem {print}, \hyperpage{4}
+    \subitem {print\+To\+File}, \hyperpage{5}
+    \subitem {read\+From\+Binary\+File}, \hyperpage{5}
+    \subitem {save\+To\+Binary\+File}, \hyperpage{5}
+
+  \indexspace
+
+  \item {class\+Weight}
+    \subitem {Config}, \hyperpage{6}
+  \item {compute\+Residual}
+    \subitem {Data\+Set}, \hyperpage{8}
+  \item {compute\+Variance}
+    \subitem {Binary\+Tree}, \hyperpage{3}
+  \item {Config}, \hyperpage{5}
+    \subitem {apply\+Weight}, \hyperpage{6}
+    \subitem {class\+Weight}, \hyperpage{6}
+    \subitem {input\+File}, \hyperpage{6}
+    \subitem {learning\+Rate}, \hyperpage{6}
+    \subitem {M\+A\+X\+B\+U\+F\+F\+E\+R}, \hyperpage{6}
+    \subitem {M\+A\+X\+I\+M\+U\+M\+D\+E\+P\+T\+H}, \hyperpage{6}
+    \subitem {M\+A\+X\+I\+M\+U\+M\+N\+U\+M\+B\+E\+R\+O\+F\+L\+E\+A\+V\+E\+S}, 
+		\hyperpage{6}
+    \subitem {M\+I\+N\+I\+M\+N\+U\+M\+B\+E\+R\+O\+F\+I\+N\+S\+T\+A\+N\+C\+E\+S\+P\+E\+R\+L\+E\+A\+F}, 
+		\hyperpage{6}
+    \subitem {M\+I\+N\+V\+A\+R\+I\+A\+N\+C\+E}, \hyperpage{6}
+    \subitem {model\+File}, \hyperpage{7}
+    \subitem {multiple\+Experiments}, \hyperpage{7}
+    \subitem {N\+O\+T\+V\+A\+L\+I\+D}, \hyperpage{7}
+    \subitem {number\+Of\+Trees}, \hyperpage{7}
+    \subitem {print}, \hyperpage{6}
+    \subitem {U\+N\+K\+N\+O\+W\+N\+V\+A\+L\+U\+E}, \hyperpage{7}
+    \subitem {verbose}, \hyperpage{7}
+
+  \indexspace
+
+  \item {Data\+Set}, \hyperpage{7}
+    \subitem {$\sim$\+Data\+Set}, \hyperpage{8}
+    \subitem {compute\+Residual}, \hyperpage{8}
+    \subitem {Data\+Set}, \hyperpage{8}
+    \subitem {get\+Example\+At}, \hyperpage{9}
+    \subitem {get\+Number\+Of\+Instances\+With\+Threshold\+At}, 
+		\hyperpage{9}
+    \subitem {get\+Output\+Variable\+At}, \hyperpage{9}
+    \subitem {get\+Residual\+At}, \hyperpage{9}
+    \subitem {get\+Weight}, \hyperpage{9}
+    \subitem {print}, \hyperpage{9}
+    \subitem {set\+Residual\+At}, \hyperpage{9}
+    \subitem {sort}, \hyperpage{11}
+
+  \indexspace
+
+  \item {generate\+Tree}
+    \subitem {Binary\+Tree}, \hyperpage{4}
+  \item {get\+Example\+At}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {get\+Gamma}
+    \subitem {Binary\+Tree}, \hyperpage{4}
+  \item {get\+Int\+Value}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+  \item {get\+Name}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+  \item {get\+Number\+Of\+Instances\+With\+Threshold\+At}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {get\+Number\+Of\+Regions}
+    \subitem {Binary\+Tree}, \hyperpage{4}
+  \item {get\+Number\+Of\+Values}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+  \item {get\+Output\+Variable\+At}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {get\+Residual\+At}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {get\+String\+Value}
+    \subitem {Nominal\+Feature}, \hyperpage{13}
+  \item {get\+Weight}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {Gradient\+Boosting}, \hyperpage{11}
+    \subitem {$\sim$\+Gradient\+Boosting}, \hyperpage{11}
+    \subitem {Gradient\+Boosting}, \hyperpage{11}
+    \subitem {test}, \hyperpage{11}
+    \subitem {train}, \hyperpage{11}
+
+  \indexspace
+
+  \item {input\+File}
+    \subitem {Config}, \hyperpage{6}
+
+  \indexspace
+
+  \item {learning\+Rate}
+    \subitem {Config}, \hyperpage{6}
+
+  \indexspace
+
+  \item {M\+A\+X\+B\+U\+F\+F\+E\+R}
+    \subitem {Config}, \hyperpage{6}
+  \item {M\+A\+X\+I\+M\+U\+M\+D\+E\+P\+T\+H}
+    \subitem {Config}, \hyperpage{6}
+  \item {M\+A\+X\+I\+M\+U\+M\+N\+U\+M\+B\+E\+R\+O\+F\+L\+E\+A\+V\+E\+S}
+    \subitem {Config}, \hyperpage{6}
+  \item {M\+I\+N\+I\+M\+N\+U\+M\+B\+E\+R\+O\+F\+I\+N\+S\+T\+A\+N\+C\+E\+S\+P\+E\+R\+L\+E\+A\+F}
+    \subitem {Config}, \hyperpage{6}
+  \item {M\+I\+N\+V\+A\+R\+I\+A\+N\+C\+E}
+    \subitem {Config}, \hyperpage{6}
+  \item {make\+A\+Prediction}
+    \subitem {Binary\+Tree}, \hyperpage{4}
+  \item {model\+File}
+    \subitem {Config}, \hyperpage{7}
+  \item {multiple\+Experiments}
+    \subitem {Config}, \hyperpage{7}
+
+  \indexspace
+
+  \item {N\+O\+T\+V\+A\+L\+I\+D}
+    \subitem {Config}, \hyperpage{7}
+  \item {Nominal\+Feature}, \hyperpage{12}
+    \subitem {$\sim$\+Nominal\+Feature}, \hyperpage{12}
+    \subitem {add}, \hyperpage{12}
+    \subitem {get\+Int\+Value}, \hyperpage{12}
+    \subitem {get\+Name}, \hyperpage{12}
+    \subitem {get\+Number\+Of\+Values}, \hyperpage{12}
+    \subitem {get\+String\+Value}, \hyperpage{13}
+    \subitem {Nominal\+Feature}, \hyperpage{12}
+    \subitem {set\+Name}, \hyperpage{13}
+  \item {number\+Of\+Trees}
+    \subitem {Config}, \hyperpage{7}
+
+  \indexspace
+
+  \item {print}
+    \subitem {Binary\+Tree}, \hyperpage{4}
+    \subitem {Config}, \hyperpage{6}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {print\+To\+File}
+    \subitem {Binary\+Tree}, \hyperpage{5}
+
+  \indexspace
+
+  \item {read\+From\+Binary\+File}
+    \subitem {Binary\+Tree}, \hyperpage{5}
+
+  \indexspace
+
+  \item {S\+A\+U\+X\+Map}, \hyperpage{13}
+  \item {save\+To\+Binary\+File}
+    \subitem {Binary\+Tree}, \hyperpage{5}
+  \item {set\+Name}
+    \subitem {Nominal\+Feature}, \hyperpage{13}
+  \item {set\+Residual\+At}
+    \subitem {Data\+Set}, \hyperpage{9}
+  \item {sort}
+    \subitem {Data\+Set}, \hyperpage{11}
+
+  \indexspace
+
+  \item {test}
+    \subitem {Gradient\+Boosting}, \hyperpage{11}
+  \item {train}
+    \subitem {Gradient\+Boosting}, \hyperpage{11}
+
+  \indexspace
+
+  \item {U\+N\+K\+N\+O\+W\+N\+V\+A\+L\+U\+E}
+    \subitem {Config}, \hyperpage{7}
+
+  \indexspace
+
+  \item {verbose}
+    \subitem {Config}, \hyperpage{7}
+
+\end{theindex}

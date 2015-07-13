@@ -1,0 +1,52 @@
+@relation autos
+@attribute normalized-losses real [65,256]
+@attribute make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute fuel-type {diesel,gas}
+@attribute aspiration {std,turbo}
+@attribute num-of-doors {four,two}
+@attribute body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute drive-wheels {4wd,fwd,rwd}
+@attribute engine-location {front,rear}
+@attribute wheel-base real [86.6,120.9]
+@attribute length real [141.1,208.1]
+@attribute width real [60.3,72.3]
+@attribute height real [47.8,59.8]
+@attribute curb-weight real [1488,4066]
+@attribute engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute engine-size real [61,326]
+@attribute fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute bore real [2.54,3.94]
+@attribute stroke real [2.07,4.17]
+@attribute compression-ratio real [7,23]
+@attribute horsepower real [48,288]
+@attribute peak-rpm real [4150,6600]
+@attribute city-mpg real [13,49]
+@attribute highway-mpg real [16,54]
+@attribute price real [5118,45400]
+@attribute class {-3,-2,-1,0,1,2,3}
+@data
+103,volvo,gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2912,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,23,28,12940,-2
+65,toyota,gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2326,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,29,34,8948,-1
+93,mercedes-benz,diesel,turbo,four,wagon,rwd,front,110,190.9,70.3,58.7,3750,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,28248,-1
+93,mercedes-benz,diesel,turbo,four,sedan,rwd,front,110,190.9,70.3,56.5,3515,ohc,five,183,idi,3.58,3.64,21.5,123,4350,22,25,25552,-1
+91,toyota,diesel,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,34,36,7898,0
+85,honda,gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2304,ohc,four,110,1bbl,3.15,3.58,9,86,5800,27,33,8845,0
+91,toyota,diesel,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2275,ohc,four,110,idi,3.27,3.35,22.5,56,4500,38,47,7788,0
+102,subaru,gas,std,four,sedan,fwd,front,97.2,172,65.4,52.5,2340,ohcf,four,108,mpfi,3.62,2.64,9,94,5200,26,32,9960,0
+?,volkswagen,gas,std,four,wagon,fwd,front,100.4,183.1,66.9,55.1,2563,ohc,four,109,mpfi,3.19,3.4,9,88,5500,25,31,12290,0
+?,isuzu,gas,std,four,sedan,fwd,front,94.5,155.9,63.6,52,1909,ohc,four,90,2bbl,3.03,3.11,9.6,70,5400,38,43,?,0
+81,toyota,gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,2290,ohc,four,92,2bbl,3.05,3.03,9,62,4800,27,32,7898,0
+?,mercedes-benz,gas,std,two,hardtop,rwd,front,112,199.2,72,55.4,3715,ohcv,eight,304,mpfi,3.8,3.35,8,184,4500,14,16,45400,1
+129,mazda,gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,8845,1
+154,plymouth,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,1989,ohc,four,90,2bbl,2.97,3.23,9.4,68,5500,31,38,6692,1
+101,honda,gas,std,two,hatchback,fwd,front,93.7,150,64,52.6,1837,ohc,four,79,1bbl,2.91,3.07,10.1,60,5500,38,42,5399,1
+168,toyota,gas,std,two,hatchback,rwd,front,94.5,168.7,64,52.6,2300,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,9538,1
+113,mazda,gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,ohc,four,91,2bbl,3.08,3.15,9,68,5000,31,38,7395,1
+134,toyota,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52,2551,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,9989,2
+161,mitsubishi,gas,std,two,hatchback,fwd,front,93.7,157.3,64.4,50.8,2004,ohc,four,92,2bbl,2.97,3.23,9.4,68,5500,31,38,6669,2
+134,toyota,gas,std,two,hatchback,rwd,front,98.4,176.2,65.6,52,2714,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,11549,2
+?,isuzu,gas,std,two,hatchback,rwd,front,96,172.6,65.2,51.4,2734,ohc,four,119,spfi,3.43,3.23,9.2,90,5000,24,29,11048,2
+153,mitsubishi,gas,turbo,two,hatchback,fwd,front,96.3,173,65.4,49.4,2370,ohc,four,110,spdi,3.17,3.46,7.5,116,5500,23,30,9959,3
+?,porsche,gas,std,two,hardtop,rwd,rear,89.5,168.9,65,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,34028,3
+197,toyota,gas,std,two,hatchback,rwd,front,102.9,183.5,67.7,52,3016,dohc,six,171,mpfi,3.27,3.35,9.3,161,5200,19,24,15998,3

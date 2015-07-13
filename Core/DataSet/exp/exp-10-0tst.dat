@@ -1,0 +1,14 @@
+@relation NotasProcesadas-weka.filters.unsupervised.attribute.Remove-R13-18-weka.filters.unsupervised.attribute.Remove-R1
+@attribute Ejercicio-AC1 real [0,10]
+@attribute Ejercicio-AC2 real [0,9.75]
+@attribute Midterm real [0,8.7]
+@attribute Ejercicio-AC3 real [0,10]
+@attribute ExamenFebrero real [0,9.7]
+@attribute NP-AC1 real [0,1]
+@attribute NP-AC2 real [0,1]
+@attribute NP-Midterm real [0,1]
+@attribute NP-AC3 real [0,1]
+@attribute NP-EFebrero real [0,1]
+@attribute class {SUFICIENTE,BIEN,SUSPENDIDO,NOTABLE,EXCELENTE}
+@data
+0.0,0.0,0.0,0.0,9.7,0,0,0,0,0,SUFICIENTE

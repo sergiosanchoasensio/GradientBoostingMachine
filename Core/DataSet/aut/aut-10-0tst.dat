@@ -1,0 +1,52 @@
+@relation autos
+@attribute normalized-losses real [65,256]
+@attribute make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute fuel-type {diesel,gas}
+@attribute aspiration {std,turbo}
+@attribute num-of-doors {four,two}
+@attribute body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute drive-wheels {4wd,fwd,rwd}
+@attribute engine-location {front,rear}
+@attribute wheel-base real [86.6,120.9]
+@attribute length real [141.1,208.1]
+@attribute width real [60.3,72.3]
+@attribute height real [47.8,59.8]
+@attribute curb-weight real [1488,4066]
+@attribute engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute engine-size real [61,326]
+@attribute fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute bore real [2.54,3.94]
+@attribute stroke real [2.07,4.17]
+@attribute compression-ratio real [7,23]
+@attribute horsepower real [48,288]
+@attribute peak-rpm real [4150,6600]
+@attribute city-mpg real [13,49]
+@attribute highway-mpg real [16,54]
+@attribute price real [5118,45400]
+@attribute class {-3,-2,-1,0,1,2,3}
+@data
+103,volvo,gas,turbo,four,sedan,rwd,front,104.3,188.8,67.2,56.2,3045,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,18420,-2
+65,toyota,diesel,turbo,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2480,ohc,four,110,idi,3.27,3.35,22.5,73,4500,30,33,10698,-1
+74,volvo,gas,turbo,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3157,ohc,four,130,mpfi,3.62,3.15,7.5,162,5100,17,22,18950,-1
+74,volvo,gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3042,ohc,four,141,mpfi,3.78,3.15,9.5,114,5400,24,28,16515,-1
+91,toyota,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2094,ohc,four,98,2bbl,3.19,3.03,9,70,4800,38,47,7738,0
+85,honda,gas,std,four,sedan,fwd,front,96.5,175.4,62.5,54.1,2372,ohc,four,110,1bbl,3.15,3.58,9,86,5800,27,33,10295,0
+115,mazda,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,10245,0
+102,subaru,gas,turbo,four,sedan,4wd,front,97,172,65.4,54.3,2510,ohcf,four,108,mpfi,3.62,2.64,7.7,111,4800,24,29,11259,0
+145,jaguar,gas,std,four,sedan,rwd,front,113,199.6,69.6,52.8,4066,dohc,six,258,mpfi,3.63,4.17,8.1,176,4750,15,19,32250,0
+161,peugot,diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,l,four,152,idi,3.7,3.52,21,95,4150,28,33,13200,0
+106,nissan,gas,std,four,sedan,fwd,front,97.2,173.4,65.2,54.7,2302,ohc,four,120,2bbl,3.33,3.47,8.5,97,5200,27,34,9549,0
+128,nissan,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1918,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,6649,1
+104,mazda,gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1900,ohc,four,91,2bbl,3.03,3.15,9,68,5000,31,38,6095,1
+?,mercury,gas,turbo,two,hatchback,rwd,front,102.7,178.4,68,54.8,2910,ohc,four,140,mpfi,3.78,3.12,8,175,5000,19,24,16503,1
+87,toyota,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,2040,ohc,four,92,2bbl,3.05,3.03,9,62,4800,31,38,6338,1
+154,plymouth,gas,std,four,sedan,fwd,front,93.7,167.3,63.8,50.8,2191,ohc,four,98,2bbl,2.97,3.23,9.4,68,5500,31,38,7609,1
+128,nissan,gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1889,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,5499,1
+134,toyota,gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52,2679,ohc,four,146,mpfi,3.62,3.5,9.3,116,4800,24,30,11199,2
+121,chevrolet,gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,l,three,61,2bbl,2.91,3.03,9.5,48,5100,47,53,5151,2
+83,subaru,gas,std,two,hatchback,4wd,front,93.3,157.3,63.8,55.7,2240,ohcf,four,108,2bbl,3.62,2.64,8.7,73,4400,26,31,7603,2
+164,audi,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,3.19,3.4,10,102,5500,24,30,13950,2
+150,mazda,gas,std,two,hatchback,rwd,front,95.3,169,65.7,49.6,2500,rotor,two,80,mpfi,?,?,9.4,135,6000,16,23,15645,3
+150,mazda,gas,std,two,hatchback,rwd,front,95.3,169,65.7,49.6,2380,rotor,two,70,4bbl,?,?,9.4,101,6000,17,23,10945,3
+150,saab,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2658,ohc,four,121,mpfi,3.54,3.07,9.31,110,5250,21,28,11850,3

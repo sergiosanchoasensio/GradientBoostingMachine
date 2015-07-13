@@ -1,0 +1,28 @@
+@relation 'NotasProcesadas-weka.filters.unsupervised.attribute.Remove-R1,13-18'
+@attribute Ejercicio-EC1 real [0,10]
+@attribute Ejercicio-EC2 real [0,9.75]
+@attribute Midterm real [0,8.7]
+@attribute Ejercicio-EC3 real [0,10]
+@attribute ExamenFebrero real [0,9.7]
+@attribute NP-EC1 real [0,1]
+@attribute NP-EC2 real [0,1]
+@attribute NP-Midterm real [0,1]
+@attribute NP-EC3 real [0,1]
+@attribute NP-EFebrero real [0,1]
+@attribute class {APROBADO,BIEN,SUSPENDIDO,NOTABLE,EXCELENTE}
+@data
+7.2,8.25,3.55,10,5.15,0,0,0,0,0,APROBADO
+8.6,6.75,4.85,10,3.9,0,0,0,0,0,APROBADO
+7.9,7.5,7.2,2,6.25,0,0,0,0,0,BIEN
+10,8,7.8,10,4,0,0,0,0,0,BIEN
+0,1,0,0,2.15,1,0,1,1,0,SUSPENDIDO
+7.9,0,1.8,0,1.35,0,1,0,1,0,SUSPENDIDO
+9.3,6.5,0,0,0,0,0,1,1,1,SUSPENDIDO
+8.6,5.75,4.5,0,0,0,0,0,1,1,SUSPENDIDO
+7.2,0,2.25,0,1.35,0,1,0,1,0,SUSPENDIDO
+9.3,0,1.9,0,1.1,0,1,0,1,0,SUSPENDIDO
+9.3,7,4.1,2,2.15,0,0,0,0,0,SUSPENDIDO
+0,0,0,0,0,1,1,1,1,1,SUSPENDIDO
+0,0,3.75,0,0,1,1,0,1,1,SUSPENDIDO
+6.5,6.25,8,4,6.65,0,0,0,0,0,NOTABLE
+7.9,6.75,7,4,7.85,0,0,0,0,0,NOTABLE
