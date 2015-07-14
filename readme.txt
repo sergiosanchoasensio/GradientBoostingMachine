@@ -38,7 +38,7 @@ PGUI.py it is a GUI that makes the experimentation more user friendly. It allows
 
 (**)
 
-ModelToGpv tranlates the GBM output (input.txt) to DOT language (output.txt). You can use Graphviz to read output.txt content and print the model.
+ModelToGpv translates the GBM output (input.txt) to DOT language (output.txt). You can use Graphviz to read output.txt content and print the model.
 
 For more information see ‘TFG_GBM.pdf’.
 
